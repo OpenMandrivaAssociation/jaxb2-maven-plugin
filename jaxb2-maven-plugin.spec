@@ -1,4 +1,4 @@
-%_javapackages_macros
+%{?_javapackages_macros:%_javapackages_macros}
 Name:          jaxb2-maven-plugin
 Version:       1.5
 Release:       3.0%{?dist}
@@ -86,3 +86,14 @@ sed -i 's/\r//' LICENSE-2.0.txt
 
 %files javadoc -f .mfiles-javadoc
 %doc LICENSE-2.0.txt
+
+%changelog
+* Sat Aug 03 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.5-3
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_20_Mass_Rebuild
+
+* Tue Jul 09 2013 gil cattaneo <puntogil@libero.it> 1.5-2
+- switch to XMvn
+- minor changes to adapt to current guideline
+
+* Thu May 09 2013 gil cattaneo <puntogil@libero.it> 1.5-1
+- initial rpm
