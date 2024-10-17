@@ -4,7 +4,7 @@ Version:       1.5
 Release:       3.0%{?dist}
 Summary:       JAXB-2 Maven Plugin
 License:       ASL 2.0
-Url:           http://mojo.codehaus.org/jaxb2-maven-plugin/
+Url:           https://mojo.codehaus.org/jaxb2-maven-plugin/
 # svn export https://svn.codehaus.org/mojo/tags/jaxb2-maven-plugin-1.5
 # tar czf jaxb2-maven-plugin-1.5-src-svn.tar.gz jaxb2-maven-plugin-1.5
 Source0:       http://repo2.maven.org/maven2/org/codehaus/mojo/%{name}/%{version}/%{name}-%{version}-source-release.zip
